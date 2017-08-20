@@ -11,6 +11,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements position och storlek inuti rutnätet.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'fa': '<p>موقعیت و اندازه یک آیتم گرید را در گرید مشخص می کند.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
     'it': '<p>Specifica la posizione e la dimensione di un elemento nella griglia.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
+    'vi': '<p>Xác định vị trí của mục lưới (grid item) và kích cỡ bên trong lưới.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-column-start&gt; / &lt;grid-row-end&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column': {
     'en': '<p>Specifies a grid item\'s position within the grid columns.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
@@ -24,6 +25,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements position inuti rutnätets kolumner.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'fa': '<p>موقعیت آیتم گرید در یک ستون گرید را مشخص می کند.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
     'it': '<p>Specifica la posizione di un elemente rispetto alle colonne della griglia.</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
+    'vi': '<p>Xác định vị trí của một mục lưới bên trong các cột lưới (grid column).</p><p><code>&lt;grid-column-start&gt; / &lt;grid-column-end&gt;</code></p>',
   },
   'grid-column-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -37,6 +39,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements slutposition inuti rutnätets kolumner.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه پایان آیتم گرید در یک ستون گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione finale di un elemento rispetto alle colonne della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'vi': '<p>Xác định vị trí kết thúc của một mục lưới bên trong các cột lưới.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-column-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid columns.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -50,6 +53,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements startposition inuti rutnätet.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه شروع آیتم گرید در یک ستون گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione iniziale di un elemento rispetto alle colonne della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'vi': '<p>Xác định vị trí bắt đầu của một mục lưới bên trong các cột lưới.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row': {
     'en': '<p>Specifies a grid item\'s position within the grid rows.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
@@ -63,6 +67,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements position inuti rutnätets rader.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'fa': '<p>موقعیت آیتم گرید در یک سطر گرید را مشخص می کند.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
     'it': '<p>Specifica la posizione di un elemente rispetto alle righe della griglia.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
+    'vi': '<p>Xác định vị trí của một mục lưới bên trong các hàng lưới.</p><p><code>&lt;grid-row-start&gt; / &lt;grid-row-end&gt;</code></p>',
   },
   'grid-row-end': {
     'en': '<p>Specifies a grid item\'s end position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -76,6 +81,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements slutposition inuti rutnätets rader.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه پایان آیتم گرید در یک سطر گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione finale di un elemento rispetto alle righe della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'vi': '<p>Xác định vị trí kết thúc của một mục lưới bên trong các hàng lưới.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-row-start': {
     'en': '<p>Specifies a grid item\'s start position within the grid rows.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
@@ -89,6 +95,7 @@ var docs = {
     'sv': '<p>Specifierar ett gridelements startposition inuti rutnätets rader.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'fa': '<p>نقطه شروع آیتم گرید در یک سطر گرید را مشخص می کند.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
     'it': '<p>Specifica la posizione iniziale di un elemento rispetto alle righe della griglia.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
+    'vi': '<p>Xác định vị trí bắt đầu của một mục lưới bên trong các hàng lưới.</p><p><code>&lt;integer&gt;</code> <code>span &lt;integer&gt;</code></p>',
   },
   'grid-template': {
     'en': '<p>Specifies the sizing and names of the grid\'s rows and columns.</p><p><code>&lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;</code></p>',
